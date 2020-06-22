@@ -1,0 +1,54 @@
+  table
+            {
+                font-family: cursive;
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                float:right;
+            }
+            img:hover{
+                width: 500px;
+                height: 500px;
+            }  
+         #timer_div
+         {
+             font-family: Arial Black;
+             font-weight:bold;
+             font-size: 22px;
+             text-align: center;
+             padding: 10px;
+             width: 100%;
+             border:2px solid green;
+             position: fixed;
+             top: 0;
+             left:0;
+             background-color: green; 
+             color:blue;
+         }
+         input[type=radio]+label:empty
+         {
+             background-color: white;
+             border: none;
+         }
+        
+         input[type=radio]+label{
+          border :1px solid black;
+          font-family: Arial Black;
+          padding: 8px;
+          margin-left: 10px;
+          
+         }
+         input[type=radio]:checked+label
+         {
+             color:red;
+             background-color: green; 
+           
+         }
+         input[type=radio]
+         {
+            display: none; 
+         }
+         hr.line{
+             border:2px solid #040505 ;
+         }
